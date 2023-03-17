@@ -44,9 +44,8 @@ li{
 
 }
 
-li:hover {
-    color:rgb(177, 60, 166)
-}
+
+
 
 #logo {
     width: 100px;
@@ -81,11 +80,11 @@ li:hover {
 
         width: 125px;
         text-align: center;
-        position: relative;
         float: left;
-        margin-right: 4px;
+        margin-right: 0px;
         color: rgb(255, 255, 255);
         border-color: rgb(205, 67, 150);
+    
     }
 
     ul#navmenu a
@@ -101,35 +100,38 @@ li:hover {
 
     ul#navmenu .sub1 li
     {
+        top: -50px;
+        margin-right: 50px;
 
     }
 
     ul#navmenu .sub1 a 
     {
-        margin-top: 0px;
+        margin-top: auto;
+      
     }
 
-    ul#navmenu li:hover > a
+    ul#navmenu li:hover  a
     {
      color: rgb(205, 67, 150);
+     position: absolute; /* this made the menu stop going up */
     }
 
-    ul#navmenu li:hover a: hover
-    {
-        background-color: #Ffff;  /*<!-- sets all link color when hovering to yellow  -->*/
-    }
+  
 
     ul#navmenu ul.sub1{
-    display: none;
-    position: absolute;
-    top: 26px;
-    left: 0px;
+    
+    
+    
+    
     }
 
 
 ul#navmenu li:hover .sub1
 {
     display: block;
+    bottom: -50px;
+    margin-right: 50px;
 }
 li ul{
 display:none;
