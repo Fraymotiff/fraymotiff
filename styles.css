@@ -27,24 +27,7 @@ nav {
 
 }
 
-ul{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
 
-}
-
-li{
-    list-style: none;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    font-size: 19px;
-    transition: .5s;
-    border-color: rgb(213, 91, 174);
-    font-family: 'Kdam Thmor Pro',sans-serif;
-   border: rgb(205, 67, 150)  2px;
-
-}
 
 
 
@@ -58,21 +41,84 @@ li{
 
  /* start of  navigation menu */
     /*============================================*/
+  
+
+
+    ul{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    
+    }
+    
+    li{
+        list-style: none;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        font-size: 19px;
+        transition: .5s;
+        border-color: rgb(213, 91, 174);
+        font-family: 'Kdam Thmor Pro',sans-serif;
+       border: rgb(205, 67, 150)  2px;
+    
+    }
+
     nav ul li a {
         text-decoration: none;
         color: white;
+color:rgb(255, 255, 255)  ;
+        
+        
     }
-   
+
+
+    nav ul li a:hover {
+        text-decoration: none;
+        color:rgb(205, 67, 150)  2px;
+
+    }
+
+
+     li :hover{
+    z-index: 10;
+    color: rgb(205, 67, 150)  ;
+    }
 .child {
     display: none;
+    border-radius:10px;
 }
 
 nav ul li:hover .child {
     display: block;
 position:absolute
-background-color:rgb(250, 144, 208) ;
+
+
+
+
 
 }
+
+nav ul li:hover .child  ul{
+    display: block;
+    z-index: 10;
+    background-color:rgb(250, 144, 208) ;
+    color: rgb(205, 67, 150)  ;
+    z-index:05;
+    box-shadow:  rgb(205, 67, 150);
+    
+}
+nav ul li:hover .child  ul li{
+width: 150px;
+text-align: center;
+transition: 0.7s;
+z-index: 05;
+background-color:rgb(250, 144, 208) ;
+border-radius:10px;
+    width: 50px;
+
+
+}
+
 
  /*end of navigation menu */
     
@@ -82,25 +128,24 @@ body {
     box-sizing: border-box;
     height: 100vh;
     width: 100vw;
+    z-index: index 0;
   
 }
 
 .content {
     height: 520px;
     width: 1500px;
-    border-radius: 0px;
-    overflow: hidden;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 10px 10px 5px 0px  rgb(205, 67, 150);
-    z-index:0
-}
-
+    z-index: index -1;
+    }
 .content .slide img {
     height: 100%;
     width: 100%;
+    z-index: index 0;
 }
 
 .navigation {
