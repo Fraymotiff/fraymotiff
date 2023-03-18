@@ -22,6 +22,8 @@ header {
 
 nav {
     width: 60%;
+    
+    
 
 }
 
@@ -54,93 +56,23 @@ li{
 
 
 
- /*rules for navigation menu */
+ /* start of  navigation menu */
     /*============================================*/
-    ul#navmenu, ul.sub1 
-    {
-        list-style-type: none; /*<!-- sets bullets to none -->*/
-
-    }
-
-    ul#navmenu li
-    {
-
-        width: 125px;
-        text-align: center;
-        display: flex;
-        justify-content: ;
-        float: left;
-        margin-right: 4px;
-        color: rgb(255, 255, 255);
-        border-color: rgb(205, 67, 150);
-    }
-
-    ul#navmenu li
-    {
-
-        width: 125px;
-        text-align: center;
-        float: left;
-        margin-right: 0px;
-        color: rgb(255, 255, 255);
-        border-color: rgb(205, 67, 150);
-    
-    }
-
-    ul#navmenu a
-    {
+    nav ul li a {
         text-decoration: none;
-        display: block; /*<!-- this code makes the link a button instead  pointing specifically on the link -->*/
-        width: 125px;
-        height: 25px;
-        line-height: 25px;
-        background-color:rgb(250, 144, 208) ;
-        color: rgb(255, 255, 255);
+        color: white;
     }
+   
+.child {
+    display: none;
+}
 
-    ul#navmenu .sub1 li
-    {
-        top: -50px;
-        margin-right: 50px;
-
-    }
-
-    ul#navmenu .sub1 a 
-    {
-        margin-top: auto;
-      
-    }
-
-    ul#navmenu li:hover  a
-    {
-     color: rgb(205, 67, 150);
-     position: absolute; /* this made the menu stop going up */
-    }
-
-  
-
-    ul#navmenu ul.sub1{
-    
-    
-    
-    
-    }
-
-
-ul#navmenu li:hover .sub1
-{
+nav ul li:hover .child {
     display: block;
-    bottom: -50px;
-    margin-right: 50px;
-}
-li ul{
-display:none;
-}
+position:absolute
+background-color:rgb(250, 144, 208) ;
 
-li:hover ul{
-display:block;
 }
-
 
  /*end of navigation menu */
     
@@ -163,6 +95,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 10px 10px 5px 0px  rgb(205, 67, 150);
+    z-index:0
 }
 
 .content .slide img {
