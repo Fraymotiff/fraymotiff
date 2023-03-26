@@ -704,7 +704,7 @@ z-index: 0;
     .button {display:none;}
 
     .hi2{
-      margin-top: 10px;
+      margin-bottom: 30px;
       margin-left: 200px;
       color:rgb(234, 93, 177);
       font-size:58px;
@@ -714,7 +714,7 @@ z-index: 0;
       width:210px;
       height: auto;
 padding: 10px 10px;
-margin-left: 50px;
+margin-left: 120px;
       position:relative
 
     }
@@ -729,15 +729,15 @@ margin-left: 50px;
       border-radius: 20px;
       width:230px;
       padding: 14px 10px;
-      margin-top:px;
-      margin-right: 900px;}
+      margin-top:-40px;
+      margin-left: 100px;}
 
     .buttonmob 
     { width: 200px;
-      height: 60px;
+      height: 40px;
       background-color:rgb(240, 110, 188) ;
       color: rgb(255, 255, 255);
-      padding: 14px 10px;
+      padding: 10px 10px;
     border-radius: 5px;
     cursor: pointer;
     transition: .8s;
@@ -747,11 +747,16 @@ margin-left: 50px;
     font-weight: bold;
     border: none;
     outline: none;
-    margin-right: 900px;}
+    margin-left:100px;}
+    
 
     .whiteblock{
       background-position: 80%
       height:1900px;
+    }
+
+    .yt{
+      
     }
     }
   
