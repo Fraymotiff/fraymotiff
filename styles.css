@@ -153,6 +153,9 @@ margin-left: 920px;
    /* start of  navigation menu */
       /*============================================*/
     
+      nav {
+        margin-right: 250px;
+      }
   
   
       ul{
