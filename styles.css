@@ -150,6 +150,18 @@ margin-left: 920px;
   color: rgb(255, 255, 255);
 }
 
+
+.ytp{
+  border-radius: 10px;
+  border-color: #ffff;
+  margin-left: 99px;
+  margin-top: 50px;
+
+}
+
+
+
+
    /* start of  navigation menu */
       /*============================================*/
     
@@ -330,12 +342,27 @@ height:auto;
   font-family: Motion-Picture;
   position: relative;
   margin-top: 0px;
-  margin-left:690px;
+  margin-left:770px;
   z-index: 1;
+
+}
+.youtube-desc{
+  list-style: none;
+  color: rgb(255, 255, 255);
+position:relative;
+float: right;
+  font-size: 19px;
+  font-family: 'Kdam Thmor Pro',sans-serif;
+  width:40%;
+margin-top: 50px;
+margin-right: 450px;
+display: flex;
+text-align: center;
 
 }
 
 /* Youtube*/
+
 
 /*YOUTUBE*/
 
