@@ -1,120 +1,143 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="autf-8">
-        <meta http-equiv="X-UACompatible" content="IE=edge"
-        <meta name="Viewport" content=" width-device-width, inicial scale 1.0"> 
-        <link rel="stylesheet" href="./styles.css">
-        <script src="./script.js"></script>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fraymotiff Art</title>
+</head>
+<header>
+    <img id="logo" src="./logo fraymotiff (4).png"/>
 
-    <title>Fraymotiff</title>    
-    </head>
-        <header>
-            <img id="logo" src="./logo fraymotiff (4).png"/>
+    <!-- MOBILE STUFFF -->
+    
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#news">Sobre Nós</a>
+      <div class="dropdown">
+        <button class="dropbtn">Nossos Eventos
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Eventos Potterianos</a>
+          <a href="#">Eventos de cultura pop</a>
+          <a href="#">Pré-estreias</a>
+          <a href="#">Outros eventos</a>
+        </div>
+      </div>
+      <a href="#about">Contato</a>
+          <a href="#about">Loja</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
 
-            <nav id="nav">
-                <ul class="links">
-                  <li class="links"><a class="active" href="#home">Home</a></li>
-                  <li class="links"><a href="#news">About</a></li>
-                  <li class=""><a href="#about">Work</a>
-                    <div class="child">
-                        
-                    <ul>
-                        <li>Digital Portfolio</li>
+
+
+    <!--MOBILE STUFF-->
+<nav id="nav">
+    <ul class="links">
+      <li class="links"><a class="active" href="#home">Home</a></li>
+      <li class="links"><a href="#news">About</a></li>
+      <li class=""><a href="#about">Work</a>
+        <div class="child">
+            <ul>
+                <li>Digital Portfolio</li>
                         <li>Oil Paintings</li>
                         <li>Pencil Art</li>
                         <li>Misc</li>
-                    </ul></div> 
-                  </li>
-                  <li class="links"><a href="#contact">Contact</a></li>
-                  <li class="links"><a href="#contact">Commissions</a></li>
-                  <li class="links"><a href="#about">Shop</a>
-                </ul>
-         
+            </ul></div>
+          </li>
+          <li class="links"><a href="#contact">Contact</a></li>
+          <li class="links"><a href="#about">Commissions</a>
+            <li class="links"><a href="#about">Shop</a>
+        </ul>   
 
-        </nav>
+
+</nav>
+
+    </header>
+    <body>
+    <div class="content">
+
+        <div class="slides">
+
+            <input class="input" type="radio" name="slide" id="slide1" checked>
+            <input class="input" type="radio" name="slide" id="slide2">
+            <input class="input" type="radio" name="slide" id="slide3">
+            <input class="input" type="radio" name="slide" id="slide4">
+            <input class="input" type="radio" name="slide" id="slide5">
+
+
+            <div class="slide s1">
+                <img src="./banner1.png" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="./img/2.jpg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="./img/3.jpg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="./img/4.jpg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="./img/5.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="navigation">
+
+        <label class="bar" for="slide1"></label>
+        <label class="bar" for="slide2"></label>
+        <label class="bar" for="slide3"></label>
+        <label class="bar" for="slide4"></label>
+        <label class="bar" for="slide5"></label>
+
+   
+    </div>
+<div class="whiteblock">
+    <img class="profile1" src="./img.png">
+    <div id="about"></div>
+        <p class="hi">Hi, and welcome!</p>
         
-            </header>
-            <body>
-             
-        <div id="banner"></div>
-        <br></br>  <br></br>  
-<br></br>
-    <div class="py"> Instagram!</div>
+        <p class="desc">I'm Lua Jaxuka, also known as Fraymotiff. I'm a freelance artist focused on various styles and medias of art.
+            I am currently based on Porto Alegre, Brasil, and I do conventions, videos, and more.  
+        </p> 
 
-    <!-- pic goes here-->
+    <button class="button">Read more...</button> 
+    </div>
+    </div>
+   <br></br> 
+     
+   <!-- Youtube-->
+	<p class="heart1">♥</p>
+      <p class="yt" >Youtube</p>
+   <!--Youtube-->
+
+
+
+    <script src="./script.js"></script>
+
   
-
-</div>
-<!--end of instagram-->
-</div>
-            <div id="about">
-                <div class="hi">Hi, and welcome</div>
-                <br>
-                    <div class="desc">I'm Lua Jaxuka, also known as Fraymotiff. I'm a freelance artist focused on various styles and medias of art.
-                        I am currently based on Porto Alegre, Brasil, and I do conventions, videos, and more.
-                    </div>
-                         
-                    </p> </div> 
-                    <br></br>
-                <div><button class="button">Read more...</button> </div>
-                </div>
-            
-           
-               <div class="py"> Youtube!</div>
-               <!-- youtube video slider start here-->
-               <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/CqdlMA_8DLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            
-               <!-- youttube video slider end here-->
-               <br></br><br></br>
-               <div class="contxt"> Conventions!</div>
-               
-
-               <a href="https://www.instagram.com/fraymotiff/"><img src="./artistalley.png" div class="con" ></img></a>
-               <br></br>
-              
-         <button class="nextc">Next Cons > </button>
-
-        
-              
-
-
-
-
-<br></br>
-<footer>
-    <center><img style="object-fit: contain;" id="logo" src="./logo fraymotiff (4).png"/></center>
-    <center><span>All rights reserved©</span></center>
-    <center>  <span>Site developed by:Lua Morel
-        <center> <span>Contact- fraymotiff@gmail.com</span>
-
-
-    </body></html>
-
-
-
-
-           <!--I'm Lua Jaxuka, also known as Fraymotiff. I'm a freelance artist focused on various styles and medias of art.
-I am currently based on Porto Alegre, Brasil, and I do conventions, videos, and more.
-
-         <!-- next conventions--> 
-       <!-- youtube --> 
-       <!-- instagram feed --> 
-          <!-- footer Art by Lua Jaxuka  contact@nadiaxel.com --> 
-
-          
-  <!-- ther ideas:
-button on slides
-latest youtube video
-merch/shop button
-commissions there?  on about talk about my degree--> 
-
-       
+    <footer>
+        <center><span>Site developed by Lua Morel 2023</span></center><br>
+        <center><span>All rights reserved</span></center>
         
        
+        
+        
+        </nav></footer>
+        
+</body>
+</html>
 
-        <!--https://console.cloud.google.com/apis/credentials?project=careful-triumph-381100&supportedpurview=project-->
 
-        <!--GET https://youtube.googleapis.com/youtube/v3/channels?part=brandingSettings&id=UCB6_JKHdenAVfgY0Ezel1Yw&key=[YOUR_API_KEY] HTTP/1.1
+ 
 
-Accept: application/json-->
+
+       
