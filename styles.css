@@ -159,6 +159,9 @@ margin-left: 920px;
 
 }
 
+footer {
+ color:rgb(165, 28, 110)
+}
 
 
 
@@ -360,6 +363,26 @@ display: flex;
 text-align: center;
 
 }
+
+.insta{ 
+   color:#ffff;
+  font-size:68px;
+  font-family: Motion-Picture;
+margin-left: 600px;}
+
+.insert{  list-style: none;
+  color: rgb(255, 255, 255);
+position:relative;
+float: right;
+  font-size: 19px;
+  font-family: 'Kdam Thmor Pro',sans-serif;
+  width:40%;
+margin-top: 50px;
+margin-right: 450px;
+display: flex;
+text-align: center;
+margin-left:50 px;}
+
 
 /* Youtube*/
 
