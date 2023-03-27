@@ -161,7 +161,15 @@ margin-left: 920px;
 
 }
 
+.yout2{
+display: none;
 
+}
+
+.yout3{
+  display: none;
+  
+  }
 
 
 span {margin-right: 50px;}
@@ -530,8 +538,22 @@ footer {
 
  .profile2{
   display:none; 
-
  }
+  .yt2{
+    display:none; 
+    
+  }
+    .heart2{ display:none; 
+    }
+
+    .texto{display:none;}
+
+    .descmob{ display:none;}
+    .buttonmob{ display:none;}
+    .hi2{ display:none;}
+    .info{display:none;}
+   
+
  @media (max-width: 600px){ 
 
 nav {display: none; }
@@ -702,7 +724,8 @@ z-index: 0;
     .hi{ display:none;}
     .desc{display:none;}
     .button {display:none;}
-
+    .yt {display:none}
+    .ytp {display:none}
     .hi2{
       margin-bottom: 30px;
       margin-left: 200px;
@@ -730,7 +753,9 @@ margin-left: 120px;
       width:230px;
       padding: 14px 10px;
       margin-top:-40px;
-      margin-left: 100px;}
+      margin-left: 100px;
+    display:block;}
+      
 
     .buttonmob 
     { width: 200px;
@@ -755,10 +780,69 @@ margin-left: 120px;
       height:1900px;
     }
 
-    .yt{
+    .yt2{
+      display:block;
+      display:block;
+      color:#ffff;
+      font-size:50px;
+      font-family: Motion-Picture;
+      position: relative;
+
+      margin-left:90px;
+      }
       
-    }
-    }
+    
+      .heart2{
+        display:block;
+        color:#ffff;
+        font-size:50px;
+        font-family: Motion-Picture;
+        position: relative;
+        margin-top: 0px;
+        margin-left:200px;
+  
+      }
+        .heart1{
+          display:none;
+      }
+   
+
+      
+
+ .youtube2{display:none}
+ 
   
 
+  
+ .texto{display: block;
+  font-family: 'Kdam Thmor Pro',sans-serif;
+  color: #ffff;
+  font-size:19px;
+  width:80%;
+  margin-left: 59px;
+ }
+  
+ 
+.video{
+  border-radius: 10px;
+  border-color: #ffff;
+display:block
+margin-top:-300px;
+}
+
+.vlog{display:block}
+
+
+ .ytp{display:none}
+    }
+    
+
+  /* .video1{
+        border-radius: 10px;
+        margin-left: 60px;
+        margin-top: -300px;
+      display:block;
+      display:flex
+      flex-direction: column;
+     */
  /*mobile navi*/
