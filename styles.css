@@ -828,14 +828,25 @@ margin-left: 120px;
   border-color: #ffff;
 display:block
 margin-top:-300px;
-}
+background-position: 40%;
+      width:350px;
+      heigh:auto;
+      margin-left: 50px;}
 
-.vlog{display:block}
+.vlog{  border-radius: 10px;
+  border-color: #ffff;
+display:block
+margin-top:-300px;
+background-position: 40%;
+      width:350px;
+      heigh:auto;
+    margin-left: 50px;}
 
 
  .ytp{display:none}
     }
     
+
 
   /* .video1{
         border-radius: 10px;
