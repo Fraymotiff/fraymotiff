@@ -245,34 +245,61 @@ border-radius:10px;
 }
 
 
-.abtimg{
-  width: 349px;
-  height:auto;
-  margin-top: 20px;
-  margin-left: 40px;
-  border-radius: 10px;
+.button {
+  width: 200px;
+  height: 30px;
+  background-color:rgb(240, 110, 188) ;
+  color: rgb(255, 255, 255);
+  padding: 14px 10px;
+border-radius: 5px;
+cursor: pointer;
+transition: .8s;
+font-size: 20px;
+display: flex;
+justify-content: center;
+font-weight: bold;
+border: none;
+outline: none;
+margin-left: 640px;
+margin-top: 30px;
+}
+.button2 {
+  width: 200px;
+  height: 30px;
+  background-color:rgb(240, 110, 188) ;
+  color: rgb(255, 255, 255);
+  padding: 14px 10px;
+border-radius: 5px;
+cursor: pointer;
+transition: .8s;
+font-size: 20px;
+display: flex;
+justify-content: center;
+font-weight: bold;
+border: none;
+outline: none;
+margin-left: 640px;
+margin-top: 40px;
+
 }
 
-.abtxt {
-  color:#ffff;
-  font-size:68px;
-  font-family: Motion-Picture;
-margin-left: 600px;
-margin-top: 70px;
-
+.button:hover {
+  background-color: rgb(137, 29, 94) ;
+  color: rgb(255, 255, 255);
 }
 
-.desc{
-  color:#ffff;
-  font-size: 18px;
-  font-family: 'Kdam Thmor Pro',sans-serif;
-width:40%;
-margin top: 80px;
-float: right;
-margin-right:390px;
-
-
+.button2:hover {
+  background-color: rgb(137, 29, 94) ;
+  color: rgb(255, 255, 255);
 }
+
+
+.img{
+  height:400px;
+  width:auto;
+  margin-left: 600px;
+}
+
 
 
 

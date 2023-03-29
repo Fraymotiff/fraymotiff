@@ -532,34 +532,27 @@ border-radius:10px;
 }
 
 
-.abtimg{
-  width: 349px;
-  height:auto;
-  margin-top: 20px;
-  margin-left: 40px;
-  border-radius: 10px;
+
+#img {
+  height:500px;
+  width: auto;
+  border-radius: 0%;
+  row-gap: 10px;
+  column-gap: 10px;
 }
+.container {
+  display:flex;
+justify-content: center;
+display: grid;  
+grid-template-columns: repeat(2, 1fr);
+row-gap: 10px;
+column-gap: 10px;
 
-.abtxt {
-  color:#ffff;
-  font-size:68px;
-  font-family: Motion-Picture;
-margin-left: 600px;
-margin-top: 70px;
 
-}
-
-.desc{
-  color:#ffff;
-  font-size: 18px;
-  font-family: 'Kdam Thmor Pro',sans-serif;
-width:40%;
-margin top: 80px;
-float: right;
-margin-right:390px;
 
 
 }
+
 
 
 
