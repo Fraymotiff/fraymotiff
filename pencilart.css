@@ -249,14 +249,14 @@ border-radius:10px;
   height:500px;
   width: auto;
   border-radius: 0%;
-  row-gap: 10px;
+  row-gap: 0px;
 }
 .container {
   display:flex;
 justify-content: center;
 display: grid;  
-grid-template-columns: repeat(3, 1fr);
-row-gap: 10px;}
+grid-template-columns: repeat(3, 0fr);
+row-gap: 5px;}
 
 
 
