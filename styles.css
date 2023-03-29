@@ -35,17 +35,68 @@ body {
 }
 
 .navigation {
-    position: absolute;
-    bottom: -20px;
-    left: 650px;
-    display: flex;
+	position: absolute;
+			bottom: 50px;
+			left: 43%;
+			z-index: 10;
+			margin-bottom: -10px;
+			font-size: 0;
+			line-height: 0;
+			text-align: center;
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+}
+      .navigation label {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 50%;
+        margin: 0 4px;
+        padding: 2px;
+        background: rgb(205, 67, 150)0;
+		
+}
+
+.navigation label:hover:after {
+  opacity: 1;
+}
+ .navigation label:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -6px;
+  margin-top: -6px;
+  background: #ffff;
+  border-radius: 50%;
+  padding: 6px;
+  opacity: 0;
+}
+.navigation> .arrows {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+
+.inside .navigation {
+  bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .bar {
 
     width: 15px;
     height: 15px;
-    border: 2px solid white;
+    border: 2px solid rgb(255, 255, 255);
     margin: 6px;
     border-radius: 15px;
     cursor: pointer;
@@ -55,6 +106,11 @@ body {
 
 .bar:hover {
     background-color: white;
+
+
+
+
+    
 }
 
 input {
@@ -184,7 +240,7 @@ span {margin-right: 50px;}
   
       ul{
         display: flex;
-        width: 100%;
+        width: 50%;
         justify-content: space-between;
         border-radius:10px;
     
@@ -552,7 +608,11 @@ footer {
     .buttonmob{ display:none;}
     .hi2{ display:none;}
     .info{display:none;}
-   
+    .video {display:block;}
+    .vlog{display:none;}
+    .artistalley{display:none;}
+    .textaa{display:none}
+    .navig
 
  @media (max-width: 600px){ 
 
@@ -818,36 +878,38 @@ margin-left: 120px;
   font-family: 'Kdam Thmor Pro',sans-serif;
   color: #ffff;
   font-size:19px;
-  width:80%;
+  height:100px;
   margin-left: 59px;
  }
   
  
-.video{
-  border-radius: 10px;
-  border-color: #ffff;
-display:block
-margin-top:-300px;
-background-position: 40%;
-      width:350px;
-      heigh:auto;
-      margin-left: 50px;}
-
-.vlog{  border-radius: 10px;
-  border-color: #ffff;
-display:block
-margin-top:-300px;
-background-position: 40%;
-      width:350px;
-      heigh:auto;
-    margin-left: 50px;}
+.video { display: none;
+margin-bottom:-400px;}
 
 
- .ytp{display:none}
+ 
+.insta{margin-left: 200px;
+width:40%
+margin-top:500px;}
+
+.ytp{display:block
+}
+
+.aa{display:none;}
+
+
+.textaa{display:block
+  color: #ffff;
+    font-size: 10px;
+    font-family: 'Kdam Thmor Pro',sans-serif;
+    position:relative;
+
+ 
+}
+    .con{ margin-left: -20px;
+    background-size: 20%;}
+    .artistalley{margin-left: -50px ;}
     }
-    
-
-
   /* .video1{
         border-radius: 10px;
         margin-left: 60px;
