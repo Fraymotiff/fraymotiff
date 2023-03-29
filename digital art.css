@@ -252,16 +252,16 @@ border-radius:10px;
   height:500px;
   width: auto;
   border-radius: 0%;
-  row-gap: 10px;
-  column-gap: 10px;
+  row-gap: 2px;
+  column-gap: 2px;
 }
 .container {
   display:flex;
 justify-content: center;
 display: grid;  
-grid-template-columns: repeat(2, 1fr);
-row-gap: 10px;
-column-gap: 10px;}
+grid-template-columns: repeat(2, -5fr);
+row-gap: 0px;
+column-gap: 0px;}
 
 
 
