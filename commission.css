@@ -282,14 +282,17 @@ footer {
   text-align: center;
   margin-top:20px;
   position: relative;
+  bottom: 0;
  }
  
  
  .topnav{ display: none;}
+ .aboutlua{ display: none;}
 
+ .sobre{ display: none;}
  
 
- @media (max-width: 600px){ 
+ @media (max-width: 600px){
 
 
 .content { background-position: 30%;
@@ -322,7 +325,6 @@ top: 20px
 
 }
 nav {display:none }
-
 
 /* MOBILE STUFF*/
 
@@ -448,9 +450,35 @@ nav {display:none }
     text-align: left;
   }
 }
+
+.abtimg{
+  width: 349px;
+  display:40%
+  background-position:40%;
+  height:auto;
+
+  border-radius: 10px;
+  display:none;
 }
+
+.abtxt {
+ display:none;
+
+
+ }
+ .desc{display:none;}
+
+
+
+ .aboutlua{
+  display:block;
+ }
+
+ .sobre{display:block;}
           /*mobile stuff*/
     
         
 
+ }
 
+ 
