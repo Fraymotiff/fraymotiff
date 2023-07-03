@@ -245,13 +245,7 @@ border-radius:10px;
 }
 
 
-.abtimg{
-  width: 349px;
-  height:auto;
-  margin-top: 20px;
-  margin-left: 40px;
-  border-radius: 10px;
-}
+
 
 .abtxt {
   color:#ffff;
@@ -533,12 +527,13 @@ border-radius:10px;
 
 
 
-#img {
+img {
   height:500px;
   width: auto;
   border-radius: 0%;
-  row-gap: 10px;
-  column-gap: 10px;
+  margin-left: 500px;
+
+
 }
 .container {
   display: flex;
