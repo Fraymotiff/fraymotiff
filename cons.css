@@ -535,18 +535,10 @@ border-radius:10px;
 
 
 }
-.container {
-  display: flex;
-  justify-content: center;
-display: grid;  
-grid-template-columns: repeat(2, 1fr);
-row-gap: 10px;
-column-gap: 10px;
 
 
 
 
-}
 
 p{
   list-style: none;
