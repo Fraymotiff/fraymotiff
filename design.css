@@ -126,7 +126,7 @@ align-items: center;
 
 
 nav {
-width: 60%;
+width: 50%;
 
 
 
@@ -158,7 +158,7 @@ width: 60%;
 
 ul{
    display: flex;
-   width: 100%;
+   width: 90%;
    justify-content: space-between;
    border-radius:10px;
 
