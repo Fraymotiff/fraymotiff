@@ -12,21 +12,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 80vh;
-    width: 100vw;
+    height:100vh;
     background-color: rgb(250, 144, 208) ;
-}
-
-
-
-
-
-footer {
- color:rgb(196, 35, 131);
- font-family: 'Kdam Thmor Pro',sans-serif;
- text-align: center;
- position: absolute; 
-bottom: 0; 
 }
 
 
@@ -42,7 +29,7 @@ span {margin-right: 50px;}
   
       ul{
         display: flex;
-        width: 100%;
+        width: 50%;
         justify-content: space-between;
         border-radius:10px;
     
@@ -158,6 +145,113 @@ nav {
 
 
 
+footer {
+ color:rgb(196, 35, 131);
+ font-family: 'Kdam Thmor Pro',sans-serif;
+ text-align: center;
+ position: absolute; 
+bottom: 0; 
+}
+
+
+span {margin-right: 50px;}
+
+   /* start of  navigation menu */
+      /*============================================*/
+    
+      nav {
+        margin-right: 250px;
+      }
+  
+  
+      ul{
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        border-radius:10px;
+    
+    }
+    
+    li{
+        list-style: none;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        font-size: 19px;
+        font-family: 'Kdam Thmor Pro',sans-serif;
+        border-radius:10px;
+        
+       
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+color:rgb(255, 255, 255)  ;  
+        
+    }
+
+
+    nav ul li a:hover {
+        text-decoration: none;
+        color:rgb(255, 255, 255)  2px;
+    }
+
+
+     li :hover{
+    z-index: 10;
+    color: rgb(255, 255, 255)  ;
+    border-radius:10px;
+    }
+.child {
+    display: none;
+    box-shadow: 1px 1px 0px 0px  rgb(24, 19, 22);
+    z-index: 10;
+    border-radius:10px;
+}
+
+nav ul li:hover .child {
+    display: block;
+position:absolute
+
+
+
+
+
+}
+
+nav ul li:hover .child  ul{
+    display: block;
+    z-index: 10;
+    background-color:rgb(250, 144, 208) ;
+    color: rgb(100, 100, 100)  ;
+    z-index:05;
+    width: 150px;
+    
+}
+nav ul li:hover .child  ul li{
+width: 150px;
+text-align: center;
+transition: 0.7s;
+z-index: 05;
+background-color:rgb(250, 144, 208) ;
+border-radius:10px;
+    width: 150px;
+
+    border-radius:10px;
+}
+
+
+
+
+ /*end of navigation menu */
+
+#logo {
+    width: 95px;
+    height:auto;
+}
+
+
+
 
 
 
@@ -245,23 +339,18 @@ border-radius:10px;
 }
 
 
-
-
-
 #img {
   height:500px;
   width: auto;
   border-radius: 0%;
-  row-gap: 2px;
-  column-gap: 2px;
+  row-gap: 0px;
 }
 .container {
   display:flex;
 justify-content: center;
 display: grid;  
-grid-template-columns: repeat(2, 0fr);
-row-gap: 0px;
-column-gap: 0px;}
+grid-template-columns: repeat(3, 0fr);
+row-gap: 5px;}
 
 
 
@@ -269,11 +358,12 @@ footer {
   color:rgb(196, 35, 131);
   font-family: 'Kdam Thmor Pro',sans-serif;
   text-align: center;
-  margin-top:20px;
+  bottom: 0px;
   position: relative;
  }
  
- 
+
+
  .topnav{ display: none;}
 
  
@@ -442,4 +532,69 @@ nav {display:none }
     
         
 
+
+
+/* art gallery */
+
+.gallery {
+	display: flex;
+
+	padding: 2px;
+	transition: .3s;
+  
+}
+	
+	.gallery:hover image {
+		filter: grayscale(1);
+	}
+	
+	.gallery__column{
+		display: flex;
+		flex-direction: column;
+		width: 40%;
+    margin-left: 10px;
+	}
+	
+	.gallery__link{
+		margin: 2px;
+		overflow: hidden;
+  }
+		.gallery__link:hover {
+			.gallery__image {
+				filter: grayscale(0);
+			}
+			
+			.gallery__caption {
+				opacity: 1;
+			}
+		}
+	
+	
+.gallery__thumb {
+		position: relative;
+	}
+	
+.gallery__image {
+		display: block;
+		width: 100%;
+		transition: .3s;
+}
+		.gallery__image:hover {
+			transform: scale(1.1);
+		}
+	
+	
+	.gallery__caption {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		padding: 25px 15px 15px;
+		width: 100%;
+		font-family: 'Raleway', sans-serif;
+		font-size: 16px;
+		color: white;
+		opacity: 0;
+		background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0%, rgba(255, 255 ,255 , 0) 100%);
+		transition: .3s;
+	}
 
