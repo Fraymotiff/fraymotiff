@@ -194,11 +194,13 @@ position:absolute
   height: 60px;
   background-color:rgb(240, 110, 188) ;
   color: rgb(255, 255, 255);
-  padding: 14px 10px;
+ padding: 0.20em;
+  font-family: Motion-Picture;
+
 border-radius: 5px;
 cursor: pointer;
 transition: .8s;
-font-size: 40px;
+font-size: 2.5em;
 display: flex;
 justify-content: center;
 border: none;
@@ -379,14 +381,10 @@ nav {
   
     font-family: Motion-Picture;
     background-color:rgb(255, 255, 255) ;
-       max-width:100%
-
-       height: clamp(min(10vw, 60rem),600px, max(80vw, 54rem));
-    padding: 14px 10px;
+    padding: 0px 0.625em 3.25em;
     position: relative;
-    margin-top: 600px;
-    margin-left:0;
-    z-index: 0;
+    margin-top: 37.5em;
+    place-items center
 }
 
 .profile1{
@@ -593,29 +591,6 @@ footer {
   position: relative;
  }
 
- .topnav{ display: none;}
-
- .profile2{
-  display:none; 
- }
-  .yt2{
-    display:none; 
-    
-  }
-    .heart2{ display:none; 
-    }
-
-    .texto{display:none;}
-
-    .descmob{ display:none;}
-    .buttonmob{ display:none;}
-    .hi2{ display:none;}
-    .info{display:none;}
-    .video {display:block;}
-    .vlog{display:none;}
-    .artistalley{display:none;}
-    .textaa{display:none}
-    .navig
     .nav-mobile{
       display: none;
     }
@@ -624,7 +599,7 @@ footer {
   display: none;
 }
 
-@media(max-width:48em) {
+@media(max-width:768px) {
 
 
 
@@ -791,7 +766,7 @@ display: none;
 
 
 
-}
+
  
   .profile1{
 
@@ -809,7 +784,7 @@ display: none;
   }
   .button{display: none;}
     
- } 
+ 
 
  
 
@@ -834,7 +809,7 @@ footer{
   display: none;
 } 
 
-
+}
 
 
 
