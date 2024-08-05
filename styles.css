@@ -379,9 +379,9 @@ nav {
   
     font-family: Motion-Picture;
     background-color:rgb(255, 255, 255) ;
-       max-width:1520px;
-       margin-left: 60px
-    min-height:80vh;
+       max-width:100%
+
+       height: clamp(min(10vw, 60rem),600px, max(80vw, 54rem));
     padding: 14px 10px;
     position: relative;
     margin-top: 600px;
@@ -791,7 +791,7 @@ display: none;
 
 
 
-
+}
  
   .profile1{
 
@@ -811,16 +811,7 @@ display: none;
     
  } 
 
-  /* .profile1{
-
-      max-width:300px;
-        position: relative;
-        top: -65px;
-        margin-left:66px;
-        z-index: 1;
-        border-radius: 50%;
-    
- } */
+ 
 
 
 .con{
@@ -843,7 +834,7 @@ footer{
   display: none;
 } 
 
-}
+
 
 
 
