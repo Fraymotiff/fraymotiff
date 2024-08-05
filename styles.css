@@ -695,10 +695,6 @@ footer {
  
 }
 
-.menu-name{
-
-  size: 2rem;
-}
 
 
 
@@ -732,7 +728,8 @@ z-index: 15;
   .btn-menu {
     background: none;
     border: none;
-    font: inherit;
+    font-size: 2em;
+    font-family: 'Kdam Thmor Pro',sans-serif;
     display: flex;
     align-items: center;
     gap: 0.5rem;

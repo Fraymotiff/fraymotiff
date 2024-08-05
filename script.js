@@ -54,7 +54,7 @@ function setAria() {
   }
 }
 
-btnMenu.addEventListener("click", handleButtonClick);
+
 btnMenu.addEventListener("touchstart", handleButtonClick);
 
 
