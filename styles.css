@@ -26,8 +26,8 @@ body {
 }
 
 .content {
-    height: 520px;
-    width: 935px;
+    min-height: 32.5px;
+    min-width: 58.438rem;
     border-radius: 20px;
     overflow: hidden;
     position: absolute;
@@ -393,7 +393,7 @@ nav {
 }
 
 .profile1{
-width:500px;
+max-width:35rem;
 height:auto;
   position: relative;
   margin-top: 150px;
@@ -627,7 +627,7 @@ footer {
   display: none;
 }
 
-@media(max-width:768px) {
+@media(max-width:48em) {
 
 
 
@@ -647,38 +647,10 @@ footer {
   
 
   
-  .whiteblock{
-
-       width: 100%;
-    height: 100vh;
-
-  }
-
-  .profile1{
-
-      width:500px;
-        position: relative;
-        margin-bottom: 10%;
-        margin-left:14%;
-        z-index: 1;
-        border-radius: 50%;
-    
- }
 
 
  
- .hi {
-  
-  border-radius: 20px;
-  width:50%;
-  padding: 14px 10px;
-  bottom: 870px;
-  left: -70px;
-  position:relative;
-  justify-content: ;
-
-}
-
+ 
 
 /* NAV MOBILE */
 
@@ -767,16 +739,16 @@ z-index: 15;
     transform: rotate(-135deg);
     top: -0.4375rem;
   }
-}
+
 /* NAV MOBILE */
 
 /* REST */
 
-.content{
+/* .content{
   width: 80%;
   height: 400px;
   justify-content: center;
-  display: none;
+
 
 }
 
@@ -805,15 +777,58 @@ z-index: 15;
         margin: 0 4px;
         padding: 10px;
         background: rgb(205, 67, 150)0;
-        display: none;
+        display: none; */
     
 }
-
-.whiteblock {
-  display: none;
-
+.hi {
+  
+  border-radius: 20px;
+  width:50%;
+  padding: 14px 10px;
+  bottom: 870px;
+  left: -70px;
+  position:relative;
+  justify-content: ;
 
 }
+
+
+
+.hi{
+
+  position: absolute;
+  top:-190px;
+  left: -190px;
+}
+
+  .whiteblock{
+
+       width: 100%;
+    height: 100vh;
+
+  }
+  .profile1{
+
+        position: relative;
+        top: -65px;
+        margin-left:66px;
+        z-index: 1;
+        border-radius: 50%;
+        min-width: 2rem;
+        
+    
+ } 
+
+  /* .profile1{
+
+      max-width:300px;
+        position: relative;
+        top: -65px;
+        margin-left:66px;
+        z-index: 1;
+        border-radius: 50%;
+    
+ } */
 
 
 .con{
