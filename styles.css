@@ -26,8 +26,7 @@ body {
 }
 
 .content {
-    min-height: 32.5px;
-    min-width: 58.438rem;
+    max-width: clamp( 10rem, 1+ 5vw, 58.438rem ); 
     border-radius: 20px;
     overflow: hidden;
     position: absolute;
@@ -45,11 +44,10 @@ body {
 .navigation {
 	position: absolute;
 			bottom: 50px;
-			left: 43%;
+			left: 45%;
 			z-index: 10;
 			margin-bottom: -10px;
-			font-size: 0;
-			line-height: 0;
+			
 			text-align: center;
 			-webkit-touch-callout: none;
 			-webkit-user-select: none;
@@ -327,8 +325,7 @@ border-radius:10px;
 
 
  /*end of navigation menu */
-body { height: 100vh;
-    width: 100; }
+body 
 *{
   margin:0;
   padding:0;
@@ -382,9 +379,9 @@ nav {
   
     font-family: Motion-Picture;
     background-color:rgb(255, 255, 255) ;
-       width:1520px;
+       max-width:1520px;
        margin-left: 60px
-    height:20px;
+    min-height:80vh;
     padding: 14px 10px;
     position: relative;
     margin-top: 600px;
@@ -394,7 +391,7 @@ nav {
 
 .profile1{
 max-width:35rem;
-height:auto;
+min-height: 10em;
   position: relative;
   margin-top: 150px;
   margin-left:300px;
@@ -744,7 +741,7 @@ z-index: 15;
 
 /* REST */
 
-/* .content{
+ .content{
   width: 80%;
   height: 400px;
   justify-content: center;
@@ -789,33 +786,28 @@ z-index: 15;
   left: -70px;
   position:relative;
   justify-content: ;
-
+display: none;
 }
 
 
 
-.hi{
 
-  position: absolute;
-  top:-190px;
-  left: -190px;
-}
-
-  .whiteblock{
-
-       width: 100%;
-    height: 100vh;
-
-  }
+ 
   .profile1{
 
         position: relative;
-        top: -65px;
-        margin-left:66px;
+        bottom: clamp(min(10vw, 2rem),130px, max(80vw, 9.375rem));
+        left:-410px;
         z-index: 1;
         border-radius: 50%;
-        min-width: 2rem;
-        
+      
+
+  }
+  .desc{
+    display: none;
+
+  }
+  .button{display: none;}
     
  } 
 
