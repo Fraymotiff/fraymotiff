@@ -380,7 +380,8 @@ nav {
     background-color:rgb(255, 255, 255) ;
     padding: 0px 0.625em 3.25em  ;
     position: relative;
-    max-width: 100%;
+    max-width:clamp(50%, 0px, 100%)
+  ;
     margin-top: 37.5em;
     place-items center;
     
@@ -836,8 +837,9 @@ z-index: 15;
 .navigation {
 	position: absolute;
   place-items:center;
-transform: translate(-50%, -50%);
-bottom: 25%;
+/* transform: translate(-50%, -50%);
+bottom: 25%; */
+z-index: -1;
 
 
 }
@@ -876,20 +878,40 @@ bottom: 25%;
 
 }
 
+
 .whiteblock{
 
+/* background-color:rgb(255, 255, 255) ;
+padding: 0px 0.625em 3.25em  ;
+position: absolute;
+margin-top: 37.5em;
+place-items center; */
+ /* top:clamp(31.25,  56.25rem, calc(+)); */
+ /* max-width: 50%; */
 
-  display: none;
+  
+ /* padding: 0px 0.625em 3.25em  ;
+ position: relative;
+ max-width:clamp(100%, 10vw, 100%)
+;
+ margin-top: 37.5em;
+ place-items center;
+display: none; */
+
+
+/* 31.25 min 500 =
+56.25 max 900*/
+
 }
 .hi {
   
   border-radius: 20px;
   width:50%;
-  padding: 14px 10px;
+  /* padding: 14px 10px; */
   bottom: 870px;
   left: -70px;
   position:relative;
-  justify-content: ;
+  justify-content:center ;
 display: none;
 }
 
@@ -900,10 +922,19 @@ display: none;
   .profile1{
 
         position: relative;
-        bottom: clamp(min(10vw, 2rem),130px, max(80vw, 9.375rem));
-        left:-410px;
+          width: 90%;
+        /* bottom: clamp(min(10vw, 2rem),130px, max(80vw, 9.375rem)); */
+        /* left:-410px; */
         z-index: 1;
         border-radius: 50%;
+        place-items: center;
+
+
+        max-width:35rem;
+/* min-height: 10em; */
+  margin-top: 2.5em;
+right:100%
+
       
 
   }
