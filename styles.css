@@ -19,14 +19,13 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 80vh;
-    width: 100vw;
     background-color: rgb(250, 144, 208) ;
     font-size: 16px;
 }
 
 .content {
-    max-width: clamp( 10rem, 1+ 5vw, 58.438rem ); 
+    /* max-width: 58.438rem ;  */
+    max-width:  58.438rem;
     border-radius: 20px;
     overflow: hidden;
     position: absolute;
@@ -34,6 +33,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 10px 10px 5px 0px rgb(205, 67, 150) (6, 27, 5, 0.75);
+  
 }
 
 .content .slide img {
@@ -112,9 +112,6 @@ body {
 
 .bar:hover {
     background-color: white;
-
-
-
 
     
 }
@@ -381,17 +378,19 @@ nav {
   
     font-family: Motion-Picture;
     background-color:rgb(255, 255, 255) ;
-    padding: 0px 0.625em 3.25em;
+    padding: 0px 0.625em 3.25em  ;
     position: relative;
+    max-width: 100%;
     margin-top: 37.5em;
-    place-items center
+    place-items center;
+    
 }
 
 .profile1{
 max-width:35rem;
 min-height: 10em;
   position: relative;
-  margin-top: 150px;
+  margin-top: 40px;
   margin-left:300px;
   z-index: 1;
 }
@@ -502,6 +501,111 @@ text-position:column;
 
 
 /* start of  navigation menu */
+      /*============================================*/
+    
+      nav {
+        margin-right: 250px;
+      }
+  
+  
+      ul{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        border-radius:10px;
+    
+    }
+    
+    li{
+        list-style: none;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        font-size: 19px;
+        font-family: 'Kdam Thmor Pro',sans-serif;
+        border-radius:10px;
+        
+       
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+color:rgb(255, 255, 255)  ;  
+        
+    }
+
+
+    nav ul li a:hover {
+        text-decoration: none;
+        color:rgb(255, 255, 255)  2px;
+    }
+
+
+     li :hover{
+    z-index: 10;
+    color: rgb(255, 255, 255)  ;
+    border-radius:10px;
+    }
+.child {
+    display: none;
+    box-shadow: 1px 1px 0px 0px  rgb(24, 19, 22);
+    z-index: 10;
+    border-radius:10px;
+}
+
+nav ul li:hover .child {
+    display: block;
+position:absolute
+
+
+
+
+
+}
+
+nav ul li:hover .child  ul{
+    display: block;
+    z-index: 10;
+    background-color:rgb(250, 144, 208) ;
+    color: rgb(100, 100, 100)  ;
+    z-index:05;
+    width: 150px;
+    
+}
+nav ul li:hover .child  ul li{
+width: 150px;
+text-align: center;
+transition: 0.7s;
+z-index: 05;
+background-color:rgb(250, 144, 208) ;
+border-radius:10px;
+    width: 150px;
+
+    border-radius:10px;
+}
+
+
+
+
+ /*end of navigation menu */
+
+
+
+
+
+#logo {
+    width: 95px;
+    height:auto;
+}
+
+
+
+
+
+
+
+
+start of  navigation menu
   /*============================================*/
 
 
@@ -599,7 +703,7 @@ footer {
   display: none;
 }
 
-@media(max-width:768px) {
+@media(max-width:64em) {
 
 
 
@@ -627,8 +731,7 @@ footer {
 /* NAV MOBILE */
 
 #logo {
-  font-size: 1.5rem;
-  font-weight: bold;
+ 
 }
 
 #mobile{
@@ -636,6 +739,8 @@ footer {
   background-color:rgb(208, 62, 149);
   color: #ffffff;
   z-index: 15;
+  min-width: 100%;
+  z-index: inherit;
  
 }
 
@@ -654,6 +759,7 @@ a {    color: #ffff;}
     visibility: hidden;
     overflow-y: hidden;
     transition: 0.5s;
+    z-index: 15;
  
   }
   .menu li {
@@ -716,11 +822,14 @@ z-index: 15;
 
 /* REST */
 
- .content{
-  width: 80%;
-  height: 400px;
-  justify-content: center;
 
+
+
+
+
+.content{
+  z-index: -1;
+  min-width:  25rem;
 
 }
 
@@ -751,6 +860,11 @@ z-index: 15;
         background: rgb(205, 67, 150)0;
         display: none; */
     
+}
+
+.whiteblock{
+
+  display: none;
 }
 .hi {
   
