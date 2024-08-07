@@ -796,10 +796,12 @@ z-index: 15;
 
 .navigation {
 	position: absolute;
-  place-items:center;
-/* transform: translate(-50%, -50%);
-bottom: 25%; */
+ transform: translate(-50%, -50%);
+bottom: 25%; 
 z-index: -1;
+place-items: center;
+
+
 
 
 }
@@ -814,8 +816,9 @@ z-index: -1;
         cursor: pointer;
         border-radius: 50%;
         margin: 0 4px;
-        padding: 2px;
+        padding: 0.125em;
         background: rgb(205, 67, 150)0;
+      
 		
 }
 
@@ -845,7 +848,7 @@ z-index: -1;
 padding: 0px 0.625em 3.25em  ;
 position: absolute;
 margin-top: 37.5em;
-place-items center; */
+
  /* top:clamp(31.25,  56.25rem, calc(+)); */
  /* max-width: 50%; */
 
