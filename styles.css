@@ -380,7 +380,7 @@ nav {
     background-color:rgb(255, 255, 255) ;
     padding: 0px 0.625em 3.25em  ;
     position: relative;
-    max-width:clamp(50%, 0px, 100%)
+    max-width:clamp(50%, 100%, 100%)
   ;
     margin-top: 37.5em;
     place-items center;
@@ -395,49 +395,9 @@ min-height: 10em;
   margin-left:300px;
   z-index: 1;
 }
-.yt {
-  color:#ffff;
-  font-size:68px;
-  font-family: Motion-Picture;
 
 
-  position: relative;
-  margin-top: 0px;
-  margin-left:630px;
-  z-index: 1;
 
-}
-
-.heart1{
-  color:#ffff;
-  font-size:50px;
-  font-family: Motion-Picture;
-  position: relative;
-  margin-top: 0px;
-  margin-left:770px;
-  z-index: 1;
-
-}
-.youtube-desc{
-  list-style: none;
-  color: rgb(255, 255, 255);
-position:relative;
-float: right;
-  font-size: 19px;
-  font-family: 'Kdam Thmor Pro',sans-serif;
-  width:40%;
-margin-top: 50px;
-margin-right: 450px;
-display: flex;
-text-align: center;
-
-}
-
-.insta{ 
-   color:#ffff;
-  font-size:68px;
-  font-family: Motion-Picture;
-margin-left: 600px;}
 
 .insert{  list-style: none;
   color: rgb(255, 255, 255);
@@ -732,7 +692,7 @@ footer {
 /* NAV MOBILE */
 
 #logo {
- 
+ padding:0rem,  0rem,  0rem,  2rem;
 }
 
 #mobile{
@@ -785,7 +745,7 @@ z-index: 15;
     align-items: center;
     gap: 0.5rem;
     color: var(--white);
-    padding: 1rem 0;
+    padding: 1rem 1rem;
     cursor: pointer;
   }
   .hamburger {
@@ -880,7 +840,7 @@ z-index: -1;
 
 
 .whiteblock{
-
+  display: none; 
 /* background-color:rgb(255, 255, 255) ;
 padding: 0px 0.625em 3.25em  ;
 position: absolute;
@@ -896,7 +856,7 @@ place-items center; */
 ;
  margin-top: 37.5em;
  place-items center;
-display: none; */
+
 
 
 /* 31.25 min 500 =
@@ -920,7 +880,7 @@ display: none;
 
  
   .profile1{
-
+display: none;
         position: relative;
           width: 90%;
         /* bottom: clamp(min(10vw, 2rem),130px, max(80vw, 9.375rem)); */
