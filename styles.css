@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@font-face {
+    font-family: Motion-Picture;
+    src: url(MotionPicture_PersonalUseOnly.ttf);
+  }
+
+  
+:root {
+
+    --Background:  rgb(251, 111, 195)0;
+    --Shadow: rgb(134, 33, 93)0;
+    --Font: #ffff; 
+  }
+  
+  
+  *{
+    margin:0;
+    padding:0;
+  list-style: none;
+  text-decoration: none;}
+  body{
+    background-color:rgb(250, 144, 208) ;
+  }
+
+
+
+  
+  
+  
+/* navigation bar desktop */
+
+header {
+    height: 90px;
+    display:flex;
+    justify-content : space-around;
+    align-items: center; 
+    }
+    
+
+
+    span {margin-right: 50px;}
+
+    /* start of  navigation menu */
+       /*============================================*/
+     
+       nav {
+         margin-right: 250px;
+         margin-bottom: 20px
+         padding:5rem
+       }
+   
+   
+       ul{
+         display: flex;
+         width: 50%;
+         justify-content: space-between;
+         border-radius:10px;
+     
+     }
+     
+     li{
+         list-style: none;
+         color: var(--Shadow);
+         cursor: pointer;
+         font-size: 19px;
+         font-family: 'Kdam Thmor Pro',sans-serif;
+         border-radius:10px;
+         
+        
+     }
+ 
+     nav ul li a {
+         text-decoration: none;
+         color: white;
+ color:rgb(255, 255, 255)  ;  
+         
+     }
+ 
+ 
+     nav ul li a:hover {
+         text-decoration: none;
+         color:rgb(164, 32, 140) 2px  2px;
+     }
+ 
+ 
+      li :hover{
+     z-index: 10;
+     color:rgb(164, 32, 140) ;
+     border-radius:10px;
+     }
+ .child {
+     display: none;
+     box-shadow: 1px 1px 0px 0px  rgb(164, 32, 140);
+     z-index: 10;
+     border-radius:10px;
+ }
+ 
+ nav ul li:hover .child {
+     display: block;
+ position:absolute
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ nav ul li:hover .child  ul{
+     display: block;
+     z-index: 10;
+     background-color:rgb(250, 144, 208) ;
+     color: var  ;
+     z-index:05;
+     width: 150px;
+     
+ }
+ nav ul li:hover .child  ul li{
+ width: 150px;
+ text-align: center;
+ transition: 0.7s;
+ z-index: 05;
+ background-color:rgb(250, 144, 208) ;
+ border-radius:10px;
+     width: 150px;
+ 
+     border-radius:10px;
+ }
+ 
+ 
+ 
+ 
+  /*end of navigation menu */
+
+ 
+ header {
+    height: 90px;
+    display:flex;
+    justify-content : space-around;
+    align-items: center; 
+  
+  
+  
+ }
+ 
+ 
+ nav {
+   width: 60%;
+   height: 90px;
+   display:flex;
+   justify-content : space-around;
+   align-items: center; 
+   
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #logo {
+     width: 95px;
+     height:auto;
+ }
+
+ #mobile{
+    display: none;
+ }
+
+ @media(min-width:30em) {
+
+
+
+
+   
+
+
+    nav{
+
+        display: none;
+    
+      }
+    
+    
+    
+      
+      
+    
+      
+    
+    
+     
+     
+    
+    /* NAV MOBILE */
+    
+    #logo {
+     padding:0rem,  0rem,  0rem,  2rem;
+    }
+    
+    #mobile{
+      display: block;
+      background-color:rgb(250, 144, 208) ;
+      color: #ffffff;
+      z-index: 15;
+      max-width: 50%;
+      z-index: inherit;
+     
+    }
+    
+    
+    
+    
+    a {    color: #ffff;}
+      .menu {
+      display: block;
+      text-align: center;
+        z-index: 15;
+        transition: 0.5s;
+    
+        height: 0;
+        z-index: 1;
+        visibility: hidden;
+        overflow-y: hidden;
+        transition: 0.5s;
+        z-index: 15;
+     
+      }
+      .menu li {
+        padding: 1rem 0;
+        margin-inline: 1rem;
+        border-bottom: 0.0625rem solid rgb(154, 21, 140);
+      padding: 1rem;
+      border-radius: 0.5rem;
+    display: block;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    z-index: 15;
+      }
+    
+    
+      .btn-menu {
+        background: none;
+        border: none;
+        font-size: 2em;
+        font-family: 'Kdam Thmor Pro',sans-serif;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--white);
+        padding: 1rem 1rem;
+        cursor: pointer;
+      }
+      .hamburger {
+        border-top: 0.125rem solid;
+        width: 1.25rem;
+      }
+      .hamburger::after,
+      .hamburger::before {
+        content: " ";
+        display: block;
+        width: 1.25rem;
+        height: 0.125rem;
+        background: currentColor;
+        margin-top: 0.3125rem;
+        position: relative;
+        transition: 0.3s;
+      }
+      #mobile:focus-within .menu {
+        height: calc(100vh - 4.6875rem);
+        visibility: visible;
+        overflow-y: auto;
+      }
+      #mobile:focus-within .hamburger {
+        border-top-color: transparent;
+      }
+      #mobile:focus-within .hamburger::before {
+        transform: rotate(135deg);
+      }
+      #mobile:focus-within .hamburger::after {
+        transform: rotate(-135deg);
+        top: -0.4375rem;
+      }
+    
+    /* NAV MOBILE */
+    
+    /* REST */
+    
+    
+    
+
+    
+    }
+    
+   
