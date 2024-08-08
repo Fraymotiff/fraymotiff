@@ -848,9 +848,8 @@ padding: clamp(0, calc(50% / 2rem + 30px)  3rem);
   background-color:rgb(255, 255, 255) ;
   padding: 0px 0.625em 3.25em  ;
   position: relative;
-  max-width:clamp(20%, 100%, 100%)
-;
-  margin-top: 37.5em;
+  max-width:clamp(20%, 100%, 100%);
+  bottom: 4em;
   place-items:center;
   
 }
@@ -862,7 +861,16 @@ padding: clamp(0, calc(50% / 2rem + 30px)  3rem);
 
 
 .profile1{
-  display: none;
+  /* display: none; 40em */
+  max-width:5rem;
+ min-height: 10em; 
+  position: relative;
+  margin-left:clamp(50%, 20%, 50%) ;
+  
+
+
+
+}
 }
 
 
@@ -914,7 +922,7 @@ footer{
   display: none;
 } 
 
-}
+
 
 
 @media(max-width:48em) {
@@ -1104,20 +1112,26 @@ padding: clamp(0, calc(50% / 2rem + 30px)  3rem);
   position: relative;
   max-width:clamp(20%, 100%, 100%)
 ;
-  margin-top: 37.5em;
+bottom: 4em;
   place-items:center;
   
 }
-/* 31.25 min 500 =
-56.25 max 900*/
-
-
 
 
 
 .profile1{
-  display: none;
+
+  /* 48em */
+  max-width:30rem;
+ min-height: 30em; 
+  position: relative;
+  margin-top: 40px;
+  margin-left:clamp(20%, 20%, 50%) ;
+  border-radius: 50%;
+
 }
+
+
 
 
 .hi {
