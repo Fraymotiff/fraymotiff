@@ -797,7 +797,7 @@ z-index: 15;
 .navigation {
 	position: absolute;
  transform: translate(-50%, -50%);
-bottom: 25%; 
+bottom: 21%; 
 z-index: -1;
 place-items: center;
 padding: clamp(0, calc(50% / 2rem + 30px)  3rem);
@@ -914,13 +914,13 @@ footer{
   display: none;
 } 
 
+}
+
+
+@media(max-width:48em) {
 
 
 
- @media(min-width:43.75em) {
-
-
-/* 768px tablets */
 
    
 
@@ -952,7 +952,8 @@ footer{
   display: block;
   background-color:rgb(208, 62, 149);
   color: #ffffff;
-  max-height: 3em;
+  z-index: 15;
+  max-width: 100%;
   z-index: inherit;
  
 }
@@ -997,7 +998,7 @@ z-index: 15;
     align-items: center;
     gap: 0.5rem;
     color: var(--white);
-    padding: 0rem 1rem;
+    padding: 1rem 1rem;
     cursor: pointer;
   }
   .hamburger {
@@ -1031,21 +1032,26 @@ z-index: 15;
     top: -0.4375rem;
   }
 
+/* NAV MOBILE */
+
+/* REST */
+
+
+
 
 
 
 .content{
   z-index: -1;
   width: 80%;
-  height: 60%;
-top: em;
+  bottom:2em;
 
 }
 
 .navigation {
 	position: absolute;
  transform: translate(-50%, -50%);
-bottom: 5%; 
+bottom: 15%; 
 z-index: -1;
 place-items: center;
 padding: clamp(0, calc(50% / 2rem + 30px)  3rem);
@@ -1092,16 +1098,22 @@ padding: clamp(0, calc(50% / 2rem + 30px)  3rem);
 
 
 .whiteblock{
-position: relative;
- place-items:center; 
- bottom: 10rem;
-
-
-
-
-
-
+  font-family: Motion-Picture;
+  background-color:rgb(255, 255, 255) ;
+  padding: 0px 0.625em 3.25em  ;
+  position: relative;
+  max-width:clamp(20%, 100%, 100%)
+;
+  margin-top: 37.5em;
+  place-items:center;
+  
 }
+/* 31.25 min 500 =
+56.25 max 900*/
+
+
+
+
 
 .profile1{
   display: none;
@@ -1112,6 +1124,7 @@ position: relative;
   
   border-radius: 20px;
   width:50%;
+  /* padding: 14px 10px; */
   bottom: 870px;
   left: -70px;
   position:absolute;
