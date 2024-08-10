@@ -4,1184 +4,176 @@
     src: url(MotionPicture_PersonalUseOnly.ttf);
   }
 
-  * { margin :0;}
-  
   
 
-:root {
-  --Background rgb(205, 67, 150)0;
-  --Shadow rgb(137, 29, 94) ;
-  --Font
-}
-
   
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: rgb(250, 144, 208) ;
-    font-size: 16px;
-}
+body{
+    margin:0;
+    padding:0;
+  list-style: none;
+  text-decoration: none;
 
-.content {
-    /* max-width: 58.438rem ;  */
-    max-width:  58.438rem;
-    border-radius: 20px;
-    overflow: hidden;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 10px 10px 5px 0px rgb(205, 67, 150) (6, 27, 5, 0.75);
-  
-}
-
-.content .slide img {
-    height: 100%;
-    width: 100%;
-}
-
-.navigation {
-	position: absolute;
-			bottom: 80px;
-			left: 45%;
-			z-index: 10;
-			top:
-			
-			text-align: center;
-			-webkit-touch-callout: none;
-			-webkit-user-select: none;
-			-khtml-user-select: none;
-			-moz-user-select: none;
-			-ms-user-select: none;
-			user-select: none;
-}
-      .navigation label {
-        position: relative;
-        display: inline-block;
-        cursor: pointer;
-        border-radius: 50%;
-        margin: 0 4px;
-        padding: 2px;
-        background: rgb(205, 67, 150)0;
-		
-}
-
-.navigation label:hover:after {
-  opacity: 1;
-}
- .navigation label:after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -6px;
-  margin-top: -6px;
-  background: #ffff;
-  border-radius: 50%;
-  padding: 6px;
-  opacity: 0;
-}
-.navigation> .arrows {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-
-
-.inside .navigation {
-  bottom: 10px;
-  margin-bottom: 10px;
-}
-
-.bar {
-
-    width: 10px;
-    height: 10px;
-    border: 1px solid rgb(255, 255, 255);
-    margin: 4px;
-    border-radius: 15px;
-    cursor: pointer;
-    transform: .5s ease;
-
-}
-
-.bar:hover {
-    background-color: white;
-
-    
-}
-
-input {
-  display: none;
-}
-
-.slides {
-    display: flex;
-    width: 500%;
-    height: 100%;
-}
-
-.slide {
-    width: 20%;
-    transition: .6s;
-}
-
-#slide1:checked ~ .s1 {
-    margin-left: 0;
-} 
-
-#slide2:checked ~ .s1 {
-    margin-left: -20%;
-} 
-
-#slide3:checked ~ .s1 {
-    margin-left: -40%;
-} 
-
-#slide4:checked ~ .s1 {
-    margin-left: -60%;
-} 
-
-#slide5:checked ~ .s1 {
-    margin-left: -80%;
-} 
-
-
-
-.hi {
-    color:rgb(234, 93, 177);
-    font-size:98px;
-    font-family: Motion-Picture;
-    background-color:#ffffff ;
-    border-radius: 20px;
-    width:230px;
-    padding: 14px 10px;
-    bottom: 650px;
-    left: 600px;
-    position:relative
-
-}
-
-
-
-
-.desc {
-  color:rgb(234, 93, 177);
-  background-color: rgb(255, 255, 255);
-  font-size:20px;
-  width:40%;
-position:absolute
-  background-color:#ffffff ;
-  font-family: 'Kdam Thmor Pro',sans-serif;
-  border-radius: 20px;
-  width:230px;
-  padding: 14px 10px;
-  margin-top:-670px;
-  margin-left: 900px;
-}
-
-
-.button {
-  width: 200px;
-  height: 60px;
-  background-color:rgb(240, 110, 188) ;
-  color: rgb(255, 255, 255);
- padding: 0.20em;
-  font-family: Motion-Picture;
-
-border-radius: 5px;
-cursor: pointer;
-transition: .8s;
-font-size: 2.5em;
-display: flex;
-justify-content: center;
-border: none;
-outline: none;
-margin-left: 920px;
-
-
-}
-
-.button:hover {
-  background-color: rgb(137, 29, 94) ;
-  color: rgb(255, 255, 255);
-}
-
-
-.ytp{
-  border-radius: 10px;
-  border-color: #ffff;
-  margin-left: 99px;
-  margin-top: 50px;
-
-}
-
-.yout2{
-display: none;
-
-}
-
-.yout3{
-  display: none;
-  
-  }
-
-
-span {margin-right: 50px;}
-
-   /* start of  navigation menu */
-      /*============================================*/
-    
-      nav {
-        margin-right: 250px;
-        margin-bottom: 20px
-        padding:1rem
-      }
-  
-  
-      ul{
-        display: flex;
-        width: 50%;
-        justify-content: space-between;
-        border-radius:10px;
-    
-    }
-    
-    li{
-        list-style: none;
-        color: rgb(255, 255, 255);
-        cursor: pointer;
-        font-size: 19px;
-        font-family: 'Kdam Thmor Pro',sans-serif;
-        border-radius:10px;
-        
-       
-    }
-
-    nav ul li a {
-        text-decoration: none;
-        color: white;
-color:rgb(255, 255, 255)  ;  
-        
-    }
-
-
-    nav ul li a:hover {
-        text-decoration: none;
-        color:rgb(255, 255, 255)  2px;
-    }
-
-
-     li :hover{
-    z-index: 10;
-    color: rgb(255, 255, 255)  ;
-    border-radius:10px;
-    }
-.child {
-    display: none;
-    box-shadow: 1px 1px 0px 0px  rgb(24, 19, 22);
-    z-index: 10;
-    border-radius:10px;
-}
-
-nav ul li:hover .child {
-    display: block;
-position:absolute
-
-
-
-
-
-}
-
-nav ul li:hover .child  ul{
-    display: block;
-    z-index: 10;
     background-color:rgb(250, 144, 208) ;
-    color: rgb(100, 100, 100)  ;
-    z-index:05;
-    width: 150px;
-    
-}
-nav ul li:hover .child  ul li{
-width: 150px;
-text-align: center;
-transition: 0.7s;
-z-index: 05;
-background-color:rgb(250, 144, 208) ;
-border-radius:10px;
-    width: 150px;
-
-    border-radius:10px;
 }
 
 
 
-
- /*end of navigation menu */
-body 
-*{
-  margin:0;
-  padding:0;
-background-color:rgb(250, 144, 208) ;
-list-style: none;
-text-decoration: none;}
+  
+  
+  
+/* navigation bar desktop */
 
 header {
-  height: 90px;
-  display:flex;
-  justify-content : space-around;
-  align-items: center; 
-}
-
-
-nav {
-  width: 60%;
-  
-  
-
-}
-
-
-
-
-
-
-
-
-#logo {
-    width: 95px;
-    height:auto;
-}
-
-
-.hi {
-    color::rgb(240, 110, 188);
-    font-size:48px;
-    font-family: Motion-Picture;
-
- 
-    position: relative;
-    margin-top: 200px;
-    margin-left:300px;
-    z-index: 1;
-
-}
-
-.whiteblock {
-
-  
-    font-family: Motion-Picture;
-    background-color:rgb(255, 255, 255) ;
-    padding: 0px 0.625em 3.25em  ;
-    position: relative;
-    max-width:clamp(20%, 100%, 100%)
-  ;
-    margin-top: 37.5em;
-    place-items center;
-    
-}
-
-.profile1{
-max-width:35rem;
-min-height: 10em;
-  position: relative;
-  margin-top: 40px;
-  margin-left:300px;
-  z-index: 1;
-}
-
-
-
-
-.insert{  list-style: none;
-  color: rgb(255, 255, 255);
-position:relative;
-float: right;
-  font-size: 19px;
-  font-family: 'Kdam Thmor Pro',sans-serif;
-  width:40%;
-margin-top: 50px;
-margin-right: 450px;
-display: flex;
-text-align: center;
-margin-left:50 px;}
-
-
-
-.con {
-  width: 400px;
-  height:auto
-  border-radius: 20px;
-  margin-left: 830px;
-  transition: 1s;
-  
- 
-}
-
-.con:hover {
-  transform: scale(1.02);}
-
-  .nextc {
-    width: 200px;
-    height: 30px;
-    background-color:rgb(240, 110, 188) ;
-    color: rgb(255, 255, 255);
-    padding: 14px 10px;
-border-radius: 5px;
-cursor: pointer;
-transition: .8s;
-font-size: 20px;
-display: flex;
-justify-content: center;
-font-weight: bold;
-border: none;
-outline: none;
-margin-left: 920px;}
-
-.aa{  list-style: none;
-  color: rgb(255, 255, 255);
-float: left;
-  font-size: 19px;
-  font-family: 'Kdam Thmor Pro',sans-serif;
-  width:10%
-margin-top: 50px;
-margin-left: 250px;
-display: flex;
-margin-top:-250px;
-text-position:column;
-}
-
-
-
-
-
-/* start of  navigation menu */
-      /*============================================*/
-    
-      nav {
-        margin-right: 250px;
-      }
-  
-  
-      ul{
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-        border-radius:10px;
-    
+    height: 90px;
+    display:flex;
+    justify-content : space-around;
+    align-items: center; 
     }
     
-    li{
-        list-style: none;
-        color: rgb(255, 255, 255);
-        cursor: pointer;
-        font-size: 19px;
-        font-family: 'Kdam Thmor Pro',sans-serif;
-        border-radius:10px;
-        
-       
-    }
-
-    nav ul li a {
-        text-decoration: none;
-        color: white;
-color:rgb(255, 255, 255)  ;  
-        
-    }
 
 
-    nav ul li a:hover {
-        text-decoration: none;
-        color:rgb(255, 255, 255)  2px;
-    }
+    span {margin-right: 50px;}
 
-
-     li :hover{
-    z-index: 10;
-    color: rgb(255, 255, 255)  ;
-    border-radius:10px;
-    }
-.child {
-    display: none;
-    box-shadow: 1px 1px 0px 0px  rgb(24, 19, 22);
-    z-index: 10;
-    border-radius:10px;
-}
-
-nav ul li:hover .child {
-    display: block;
-position:absolute
-
-
-
-
-
-}
-
-nav ul li:hover .child  ul{
-    display: block;
-    z-index: 10;
-    background-color:rgb(250, 144, 208) ;
-    color: rgb(100, 100, 100)  ;
-    z-index:05;
-    width: 150px;
-    
-}
-nav ul li:hover .child  ul li{
-width: 150px;
-text-align: center;
-transition: 0.7s;
-z-index: 05;
-background-color:rgb(250, 144, 208) ;
-border-radius:10px;
-    width: 150px;
-
-    border-radius:10px;
-}
-
-
-
-
- /*end of navigation menu */
-
-
-
-
-
-#logo {
-    width: 95px;
-    height:auto;
-}
-
-
-
-
-
-
-
-
-start of  navigation menu
-  /*============================================*/
-
-
-
-  ul{
-      display: flex;
-      width: 100%;
-      justify-content: space-between;
-      border-radius:10px;
-  
-  }
-  
-  li{
-      list-style: none;
-      color: rgb(255, 255, 255);
-      cursor: pointer;
-      font-size: 19px;
-      font-family: 'Kdam Thmor Pro',sans-serif;
-      border-radius:10px;
-      
+    /* start of  navigation menu */
+       /*============================================*/
      
-  }
+       nav {
+         margin-right: 250px;
+         margin-bottom: 20px
+         padding:5rem
+       }
+   
+   
+       ul{
+         display: flex;
+         width: 50%;
+         justify-content: space-between;
+         border-radius:10px;
+     
+     }
+     
+     li{
+         list-style: none;
+         color: var(--Shadow);
+         cursor: pointer;
+         font-size: 19px;
+         font-family: 'Kdam Thmor Pro',sans-serif;
+         border-radius:10px;
+         
+        
+     }
+ 
+     nav ul li a {
+         text-decoration: none;
+         color: white;
+ color:rgb(255, 255, 255)  ;  
+         
+     }
+ 
+ 
+     nav ul li a:hover {
+         text-decoration: none;
+         color:rgb(164, 32, 140) 2px  2px;
+         transition: 0.7s;
+     }
+ 
+ 
+      li :hover{
+     z-index: 10;
+     color:rgb(164, 32, 140) ;
+     border-radius:10px;
+     }
+ .child {
+     display: none;
+     box-shadow: 1px 1px 0px 0px  rgb(164, 32, 140);
+     z-index: 10;
+     border-radius:10px;
+ }
+ 
+ nav ul li:hover .child {
+     display: block;
+ position:absolute
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ nav ul li:hover .child  ul{
+     display: block;
+     z-index: 10;
+     background-color:rgb(250, 144, 208) ;
+     color: var  ;
+     z-index:05;
+     width: 150px;
+     
+ }
+ nav ul li:hover .child  ul li{
+ width: 150px;
+ text-align: center;
+ transition: 0.7s;
+ z-index: 05;
+ background-color:rgb(250, 144, 208) ;
+ border-radius:10px;
+     width: 150px;
+ 
+     border-radius:10px;
+ }
+ 
+ 
+ 
+ 
+  /*end of navigation menu */
 
-  nav ul li a {
-      text-decoration: none;
-      color: white;
-color:rgb(255, 255, 255)  ;  
-      
-  }
-
-
-  nav ul li a:hover {
-      text-decoration: none;
-      
-  }
-
-
-   li :hover{
-  z-index: 10;
-  color:rgb(195, 55, 139)  ;
-  border-radius:10px;
-  }
-.child {
-  display: none;
-  box-shadow: 1px 1px 0px 0px rgb(195, 55, 139);
-  z-index: 10;
-  border-radius:10px;
-}
-
-nav ul li:hover .child {
-  display: block;
-position:absolute
-
-
-
-
-
-}
-
-nav ul li:hover .child  ul{
-  display: block;
-  z-index: 10;
-  background-color:rgb(250, 144, 208);
-  color: rgb(95, 95, 95)  ;
-  z-index:05;
-  width: 150px;
+ 
+ header {
+    height: 90px;
+    display:flex;
+    justify-content : space-around;
+    align-items: center; 
   
-}
-nav ul li:hover .child  ul li{
-width: 150px;
-text-align: center;
-transition: 0.3s;
-z-index: 05;
-background-color: rgb(250, 144, 208) ;
-border-radius:10px;
-  width: 150px;
-
-  border-radius:10px;
-}
-
-
-footer {
-  color:rgb(196, 35, 131);
-  font-family: 'Kdam Thmor Pro',sans-serif;
-  text-align: center;
-  margin-top:20px;
-  position: relative;
+  
+  
+ }
+ 
+ 
+ nav {
+   width: 60%;
+   height: 90px;
+   display:flex;
+   justify-content : space-around;
+   align-items: center; 
+   
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #logo {
+     width: 95px;
+     height:auto;
  }
 
-    .nav-mobile{
-      display: none;
-    }
-
-#mobile{
-  display: none;
-}
-
-@media(max-width:40em) {
-
-
-
-
-   
-
-
-  nav{
-
+ #mobile{
     display: none;
 
-  }
+ }
 
-
-
-  
-  
-
-  
-
-
- 
- 
-
-/* NAV MOBILE */
-
-#logo {
- padding:0rem,  0rem,  0rem,  2rem;
-}
-
-#mobile{
-  display: block;
-  background-color:rgb(208, 62, 149);
-  color: #ffffff;
-  z-index: 15;
-  max-width: 100%;
-  z-index: inherit;
- 
-}
-
-
-
-
-a {    color: #ffff;}
-  .menu {
-  display: block;
-  text-align: center;
-    z-index: 15;
-    transition: 0.5s;
-
-    height: 0;
-    z-index: 1;
-    visibility: hidden;
-    overflow-y: hidden;
-    transition: 0.5s;
-    z-index: 15;
- 
-  }
-  .menu li {
-    padding: 1rem 0;
-    margin-inline: 1rem;
-    border-bottom: 0.0625rem solid rgb(154, 21, 140);
-  padding: 1rem;
-  border-radius: 0.5rem;
-display: block;
-padding: 1rem;
-border-radius: 0.5rem;
-z-index: 15;
-  }
-
-
-  .btn-menu {
-    background: none;
-    border: none;
-    font-size: 2em;
+ footer {
+    color:rgb(196, 35, 131);
     font-family: 'Kdam Thmor Pro',sans-serif;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    color: var(--white);
-    padding: 1rem 1rem;
-    cursor: pointer;
-  }
-  .hamburger {
-    border-top: 0.125rem solid;
-    width: 1.25rem;
-  }
-  .hamburger::after,
-  .hamburger::before {
-    content: " ";
-    display: block;
-    width: 1.25rem;
-    height: 0.125rem;
-    background: currentColor;
-    margin-top: 0.3125rem;
+    text-align: center;
+    margin-top:20px;
     position: relative;
-    transition: 0.3s;
-  }
-  #mobile:focus-within .menu {
-    height: calc(100vh - 4.6875rem);
-    visibility: visible;
-    overflow-y: auto;
-  }
-  #mobile:focus-within .hamburger {
-    border-top-color: transparent;
-  }
-  #mobile:focus-within .hamburger::before {
-    transform: rotate(135deg);
-  }
-  #mobile:focus-within .hamburger::after {
-    transform: rotate(-135deg);
-    top: -0.4375rem;
-  }
+ }
 
-/* NAV MOBILE */
+ @media (600px){
 
-/* REST */
-
-
-
-
-
-
-.content{
-  z-index: -1;
-  width: 90%;
-
-}
-
-.navigation {
-	position: absolute;
- transform: translate(-50%, -50%);
-bottom: 21%; 
-z-index: -1;
-place-items: center;
-padding: clamp(0, calc(50% / 2rem + 30px)  3rem);
-
-
-
-
-}
-      
-			
-			
-			
-
-      .navigation label {
-        position: relative;
-        display: inline-block;
-        cursor: pointer;
-        border-radius: 50%;
-        margin: 0 4px;
-        padding: 0.125em;
-        background: rgb(205, 67, 150)0;
-      
-		
-}
-
-
-
-.inside .navigation {
-  bottom: 10px;
-  margin-bottom: 10px;
-}
-
-.bar {
-
-    min-height: 30px;
-
-    border: 1px solid rgb(255, 255, 255);
-    margin: 4px;
-    border-radius: 15px;
-    cursor: pointer;
-    transform: .5s ease;
-
-}
-
-
-.whiteblock{
-  font-family: Motion-Picture;
-  background-color:rgb(255, 255, 255) ;
-  padding: 0px 0.625em 3.25em  ;
-  position: relative;
-  max-width:clamp(20%, 100%, 100%);
-  bottom: 4em;
-  place-items:center;
-  
-}
-/* 31.25 min 500 =
-56.25 max 900*/
-
-
-
-
-
-.profile1{
-  /* display: none; 40em */
-  max-width:5rem;
- min-height: 10em; 
-  position: relative;
-  margin-left:clamp(50%, 20%, 50%) ;
-  
-
-
-
-}
-}
-
-
-.hi {
-  
-  border-radius: 20px;
-  width:50%;
-  /* padding: 14px 10px; */
-  bottom: 870px;
-  left: -70px;
-  position:absolute;
-  justify-content:center ;
- display: none; 
-}
-
-
-
-
- 
-
-  .desc{
-    display: none;
-
-  }
-  .button{display: none;}
-    
- 
-
- 
-
-
-.con{
-  display: none;
-}
-.aa{
-  display: none;
-}
-.textaa{
-  display: none;
-
-
-
-}
-.nextc{
-  display: none;
-}
-
-footer{
-  display: none;
-} 
-
-
-
-
-@media(max-width:48em) {
-
-
-
-
-   
-
-
-  nav{
-
-    display: none;
-
-  }
-
-
-
-  
-  
-
-  
-
-
- 
- 
-
-/* NAV MOBILE */
-
-#logo {
- padding:0rem,  0rem,  0rem,  2rem;
-}
-
-#mobile{
-  display: block;
-  background-color:rgb(208, 62, 149);
-  color: #ffffff;
-  z-index: 15;
-  max-width: 100%;
-  z-index: inherit;
- 
-}
-
-
-
-
-a {    color: #ffff;}
-  .menu {
-  display: block;
-  text-align: center;
-    z-index: 15;
-    transition: 0.5s;
-
-    height: 0;
-    z-index: 1;
-    visibility: hidden;
-    overflow-y: hidden;
-    transition: 0.5s;
-    z-index: 15;
- 
-  }
-  .menu li {
-    padding: 1rem 0;
-    margin-inline: 1rem;
-    border-bottom: 0.0625rem solid rgb(154, 21, 140);
-  padding: 1rem;
-  border-radius: 0.5rem;
-display: block;
-padding: 1rem;
-border-radius: 0.5rem;
-z-index: 15;
-  }
-
-
-  .btn-menu {
-    background: none;
-    border: none;
-    font-size: 2em;
-    font-family: 'Kdam Thmor Pro',sans-serif;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    color: var(--white);
-    padding: 1rem 1rem;
-    cursor: pointer;
-  }
-  .hamburger {
-    border-top: 0.125rem solid;
-    width: 1.25rem;
-  }
-  .hamburger::after,
-  .hamburger::before {
-    content: " ";
-    display: block;
-    width: 1.25rem;
-    height: 0.125rem;
-    background: currentColor;
-    margin-top: 0.3125rem;
-    position: relative;
-    transition: 0.3s;
-  }
-  #mobile:focus-within .menu {
-    height: calc(100vh - 4.6875rem);
-    visibility: visible;
-    overflow-y: auto;
-  }
-  #mobile:focus-within .hamburger {
-    border-top-color: transparent;
-  }
-  #mobile:focus-within .hamburger::before {
-    transform: rotate(135deg);
-  }
-  #mobile:focus-within .hamburger::after {
-    transform: rotate(-135deg);
-    top: -0.4375rem;
-  }
-
-/* NAV MOBILE */
-
-/* REST */
-
-
-
-
-
-
-.content{
-  z-index: -1;
-  width: 80%;
-  bottom:2em;
-
-}
-
-.navigation {
-	position: absolute;
- transform: translate(-50%, -50%);
-bottom: 15%; 
-z-index: -1;
-place-items: center;
-padding: clamp(0, calc(50% / 2rem + 30px)  3rem);
-
-
-
-
-}
-      
-			
-			
-			
-
-      .navigation label {
-        position: relative;
-        display: inline-block;
-        cursor: pointer;
-        border-radius: 50%;
-        margin: 0 4px;
-        padding: 0.125em;
-        background: rgb(205, 67, 150)0;
-      
-		
-}
-
-
-
-.inside .navigation {
-  bottom: 10px;
-  margin-bottom: 10px;
-}
-
-.bar {
-
-    min-height: 30px;
-
-    border: 1px solid rgb(255, 255, 255);
-    margin: 4px;
-    border-radius: 15px;
-    cursor: pointer;
-    transform: .5s ease;
-
-}
-
-
-.whiteblock{
-  font-family: Motion-Picture;
-  background-color:rgb(255, 255, 255) ;
-  padding: 0px 0.625em 3.25em  ;
-  position: relative;
-  max-width:clamp(20%, 100%, 100%)
-;
-bottom: 4em;
-  place-items:center;
-  
-}
-
-
-
-.profile1{
-
-  /* 48em */
-  max-width:30rem;
- min-height: 30em; 
-  position: relative;
-  margin-top: 40px;
-  margin-left:clamp(20%, 20%, 50%) ;
-  border-radius: 50%;
-
-}
-
-
-
-
-.hi {
-  
-  border-radius: 20px;
-  width:50%;
-  /* padding: 14px 10px; */
-  bottom: 870px;
-  left: -70px;
-  position:absolute;
-  justify-content:center ;
- display: none; 
-}
-
-
-
-
- 
-
-  .desc{
-    display: none;
-
-  }
-  .button{display: none;}
-    
- 
-
- 
-
-
-.con{
-  display: none;
-}
-.aa{
-  display: none;
-}
-.textaa{
-  display: none;
-
-
-
-}
-.nextc{
-  display: none;
-}
-
-footer{
-  display: none;
-} 
-
-}
-
-
+    nav{ display:none;}
+ }
