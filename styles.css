@@ -715,10 +715,11 @@ z-index: 15;
 
 
 .profile1{
-   max-width:10rem;
- min-height: 10em; 
+   max-width:15rem;
+ min-height: 15em; 
   position: relative;
-  margin-left:clamp(50%, 20%, 50%) ;
+  right:clamp((2em),  5em, 10em);
+
 
 
 
@@ -728,16 +729,10 @@ z-index: 15;
 }
 
 
-.hi {
-  
-  border-radius: 20px;
-  width:50%;
-  padding: 14px 10px;
-  bottom: 870px;
-  left: -70px;
-  position:absolute;
-  justify-content:center ;
-display: block;
+
+.hi{
+  display: block;
+  right: 5rem
 }
 
 
@@ -757,10 +752,23 @@ display: block;
 
 
 .con{
-  display: none;
+  display: block;
+  max-width:15rem;
+  min-height: 15em; 
+   position: absolute;
+   right:clamp((4em),  3em, 4em);
+   border-radius: 20%;
+  
+ 
+ 
 }
+
+
 .aa{
-  display: none;
+  display: block;
+  right:clamp((4em),  3em, 4em);
+  display: flex;
+  flex-direction: row;
 }
 .textaa{
   display: none;
