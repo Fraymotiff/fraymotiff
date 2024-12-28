@@ -558,11 +558,18 @@ footer {
 
 
 .desc{
-  display: ;
+  display: none;
 }
 
-.button{display: none;}
 
+.aa2{
+  display: none;
+
+}
+
+.nextc2{
+  display: none;
+}
 @media(max-width:768px) {
 
 
@@ -755,8 +762,8 @@ z-index: 15;
   display: block;
   max-width:15rem;
   min-height: 15em; 
-   position: absolute;
-   right:clamp((4em),  3em, 4em);
+   position: relative;
+   right:clamp((20em),  10em, 20em);
    border-radius: 20%;
   
  
@@ -764,12 +771,44 @@ z-index: 15;
 }
 
 
-.aa{
+
+.aa{display:none}
+
+.aa2{
   display: block;
-  right:clamp((4em),  3em, 4em);
-  display: flex;
-  flex-direction: row;
+  position:absolute;
+  top: 73em;
+  left:clamp((5em),  3em, 5em);
+  list-style: none;
+  color: rgb(255, 255, 255);
+  font-family: 'Kdam Thmor Pro',sans-serif;
+width: 75%
+
 }
+
+.nextc2{
+  top: 18em;
+  left:clamp((5em),  3em, 5em);
+  display: block;
+  width: 200px;
+    height: 30px;
+    background-color:rgb(240, 110, 188) ;
+    color: rgb(255, 255, 255);
+    padding: 14px 10px;
+border-radius: 5px;
+cursor: pointer;
+transition: .8s;
+font-size: 20px;
+display: flex;
+position: relative;
+font-weight: bold;
+border: none;
+outline: none;
+
+
+
+}
+
 .textaa{
   display: none;
 
@@ -780,9 +819,7 @@ z-index: 15;
   display: none;
 }
 
-footer{
-  display: none;
-} 
+ footer{display: none;}
 
 }
 
