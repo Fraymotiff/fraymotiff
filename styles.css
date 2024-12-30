@@ -557,7 +557,7 @@ footer {
 }
 
 
-.desc{
+.desc2{
   display: none;
 }
 
@@ -654,9 +654,10 @@ z-index: 15;
     padding: 1rem 1rem;
     cursor: pointer;
   }
-  .hamburger {
+  .hamburger{
     border-top: 0.125rem solid;
     width: 1.25rem;
+    background-color:rgb(208, 62, 149);
   }
   .hamburger::after,
   .hamburger::before {
@@ -762,8 +763,9 @@ z-index: 15;
   display: block;
   max-width:15rem;
   min-height: 15em; 
-   position: relative;
-   right:clamp((20em),  10em, 20em);
+  max-height: 20em;
+   position: absolute;
+   right:clamp((0.5em),  10em, 5em);
    border-radius: 20%;
   
  
@@ -776,36 +778,36 @@ z-index: 15;
 
 .aa2{
   display: block;
-  position:absolute;
-  top: 73em;
-  left:clamp((5em),  3em, 5em);
+  position:relative;
+  top: 12em;
+  left:8em;
+
   list-style: none;
   color: rgb(255, 255, 255);
   font-family: 'Kdam Thmor Pro',sans-serif;
-width: 75%
+width: 50%;
 
 }
 
 .nextc2{
-  top: 18em;
-  left:clamp((5em),  3em, 5em);
+ 
   display: block;
-  width: 200px;
+  width: 100px;
     height: 30px;
     background-color:rgb(240, 110, 188) ;
     color: rgb(255, 255, 255);
-    padding: 14px 10px;
+    padding: 20px 30px;
 border-radius: 5px;
 cursor: pointer;
 transition: .8s;
-font-size: 20px;
+font-size:20px;
 display: flex;
 position: relative;
 font-weight: bold;
 border: none;
 outline: none;
-
-
+top: 10em;
+left:8em;
 
 }
 
