@@ -683,9 +683,7 @@ z-index: 15;
 
 
 
-footer{
-  display: none;
-} 
+
 
 }
 
@@ -875,6 +873,8 @@ footer{
      transform: rotate(-135deg);
      top: -0.4375rem;
    }
+   footer{display:block
+  }
   }
  /* NAV MOBILE */
  

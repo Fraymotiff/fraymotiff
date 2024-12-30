@@ -574,7 +574,7 @@ footer {
 
 
 
-
+footer{}
    
 
 
@@ -635,6 +635,7 @@ a {    color: #ffff;}
     border-bottom: 0.0625rem solid rgb(154, 21, 140);
   padding: 1rem;
   border-radius: 0.5rem;
+  width: 100%;
 display: block;
 padding: 1rem;
 border-radius: 0.5rem;
@@ -821,8 +822,12 @@ left:8em;
   display: none;
 }
 
- footer{display: none;}
+footer{
 
+  display:block;
+margin-top:20rem;
+margin-left: 0rem;
+width: 100%;}
 }
 
 
