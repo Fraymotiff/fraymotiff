@@ -27,14 +27,16 @@ body {
 .banner{
   margin: auto;
   max-width: 50%;
- 
   padding: 10px;
+  display:flex;
+  justify-content: center;
 }
 
 .banner1{
   border-radius:10%;
   transition: .5s;
-
+  display:flex;
+  justify-content: center;
 }
 
 .banner1:hover{
@@ -127,9 +129,10 @@ span {margin-right: 50px;}
       /*============================================*/
     
       nav {
-        margin-right: 250px;
+        margin-right: 20em;
         margin-bottom: 20px
-        padding:1rem
+        padding:1rem;
+       
       }
   
   
@@ -148,6 +151,8 @@ span {margin-right: 50px;}
         font-size: 19px;
         font-family: 'Kdam Thmor Pro',sans-serif;
         border-radius:10px;
+        display:flex;
+        justify-content: center;
         
        
     }
